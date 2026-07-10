@@ -1,10 +1,8 @@
 import './App.css'
-import { DBForm } from './ClientForm/Client'
-function App() {
-  
+import { CreateStationForm } from './UI/Stations/CreateStation'
+function App() { 
   return (
-    <DBForm/>
+    <CreateStationForm/>
   )
 }
-
 export default App
